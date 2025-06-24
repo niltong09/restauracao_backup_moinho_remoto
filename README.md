@@ -61,23 +61,21 @@ sudo mv B\:\\MSSQL\\BACKUP\\JMTI.BAK /var/opt/mssql/backup/jmti.bak
 Conecte-se ao mecanismo de banco de dados usando o Aplicativo Sql Manager Studio
 Use o login e senha do repositorio de senhas
 
-[print conexao banco]
+![print conexao banco](./images/conectar_sqlm.png)
 
 Clique com o botão direito do mouse no servidor e em restaurar backup
 
-[print clique restaurar]
+![print clique restaurar](./images/sqlm_restaurar.png)
 
 Selecione a opcao dispositivo e clique no botao "..."
 
-[print tela restauracao]
+![print tela restauracao](./images/sqlm_selecao_arquivos.png)
 
 Clique no botão adicionar, adicione os arquivos na sequencia: full, diff, log
 
-[print tela selecao arquivo]
-
 Após selecionado os arquivos ira aparecer o banco a ser restaurado
 
-[print banco a ser restaurado]
+![print banco a ser restaurado](./images/sqlm_aplicar_restauracao.png)
 
 Confira as informações do backup e verifique se as datas estão corretas,
 finalize clicando no ok e aguarde o processamento da restauração
